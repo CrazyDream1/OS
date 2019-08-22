@@ -1,0 +1,33 @@
+    1  lsusb
+    2  hostname
+    3  less
+    4  ls
+    5  tree
+    6  clear
+    7  cd..
+    8  cd //
+    9  cd ..
+   10  whoami
+   11  hostname
+   12  man whoami
+   13  mkdir week1
+   14  ls
+   15  cd week1/
+   16  find /usr/bin -name '*gcc*' | sort -r > ex1.txt
+   17  ls
+   18  ex1.txt
+   19  cat ex1.txt
+   20  history > ex2.txt
+   21  cat ex2.txt 
+   22  clear
+   23  getit ex1/txt
+   24  gedit ex1.txt
+   25  ls
+   26  cd ..
+   27  ls > try.txt
+   28  ls
+   29  cat try.txt 
+   30  rm try.txt 
+   31  clear
+   32  cd week1/
+   33  history > ex2.txt 
