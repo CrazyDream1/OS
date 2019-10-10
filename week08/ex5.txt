@@ -1,0 +1,1 @@
+Physical address is real address of some data in the hardware. Virtual address is address to an imaginary endless tape.
