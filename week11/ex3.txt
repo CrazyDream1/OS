@@ -1,0 +1,12 @@
+When we use fork() in our program, its buffer is copied. Thus, we have the same buffers for the parent and for the child processes.
+
+In the first case, before fork() buffer contains "Hello". After fork() we have printf("\n"), that is why \n is added to the buffer. Thus, for each of two processes, the program prints "Hello\n". The output is as follows:
+Hello
+Hello
+
+
+In the second case, before fork() buffer contains "Hello\n". After fork() we have printf("\n"),that is why \n is added to the buffer (now, it contains "Hello\n\n"). Thus, for each of two processes, the program prints "Hello\n\n". The output is as follows:
+Hello
+
+Hello
+
